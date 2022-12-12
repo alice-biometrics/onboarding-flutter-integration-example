@@ -17,7 +17,7 @@ This repository serves as an example of how to integrate Alice native SDK's into
 * Install flutter: https://docs.flutter.dev/get-started/install
 
 ### Run android app
-* Open with android studio the project on /android
+* Open with Android Studio on the root of the project.
 * Sync and Run
 
 ### Run iOS app
@@ -37,7 +37,3 @@ iOS refer to https://docs.alicebiometrics.com/onboarding/sections/mobile_client_
 ## Contact :mailbox_with_mail:
 
 support@alicebiometrics.com
-
-
-## Getting Started
-
