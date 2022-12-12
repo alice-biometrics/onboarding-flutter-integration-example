@@ -12,10 +12,10 @@ import AliceOnboarding
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
       controller = window?.rootViewController as? FlutterViewController
-      let batteryChannel = FlutterMethodChannel(name: "com.alicebiometrics/onboarding",
+      let flutterMethodChannel = FlutterMethodChannel(name: "com.alicebiometrics/onboarding",
                                                 binaryMessenger: controller!.binaryMessenger)
 
-      batteryChannel.setMethodCallHandler({
+      flutterMethodChannel.setMethodCallHandler({
         (call: FlutterMethodCall, result: @escaping FlutterResult) -> Void in
           if let args = call.arguments as? Dictionary<String, Any>,
              let email = args["email"] as? String,
