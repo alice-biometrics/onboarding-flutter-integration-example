@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AliceOnboarding (1.9.15):
+    - Alamofire (~> 4.5)
+    - OpenSSL-Universal (~> 1.1.1400)
+    - Result (~> 5.0)
+    - SwiftyJSON (~> 5.0.0)
+    - Yams (~> 2.0.0)
+  - OpenSSL-Universal (1.1.1700)
+  - Result (5.0.0)
+  - SwiftyJSON (5.0.1)
+  - Yams (2.0.0)
+
+DEPENDENCIES:
+  - AliceOnboarding
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AliceOnboarding
+    - OpenSSL-Universal
+    - Result
+    - SwiftyJSON
+    - Yams
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AliceOnboarding: 7c295e3fc74532d8d22c282b824543bbec53a317
+  OpenSSL-Universal: ee0a7a25f2042782e2df405e66db3e429198e392
+  Result: ed341d2f236af425b803e690e9bd8fd0a0cb7c5a
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  Yams: cb96472112d99e4b368f8dae9ab62e8a3eb8a3f9
+
+PODFILE CHECKSUM: 3f2567d3379371cff15cec0d61e7d39c2eca9f41
+
+COCOAPODS: 1.11.3
