@@ -68,5 +68,7 @@ flutter {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'com.alicebiometrics.onboarding:AliceOnboarding:1.13.2'
+    implementation 'com.alicebiometrics.onboarding:AliceOnboarding:2.2.7'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.12.0'
 }
