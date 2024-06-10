@@ -23,7 +23,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AliceOnboarding",
-            url: "https://storage.googleapis.com/alicebiometrics.com/releases/ios/AliceOnboarding-\(version).zip",
+            url: "https://storage.googleapis.com/alicebiometrics.com/releases/ios/AliceOnboarding-2.3.11.zip",
             checksum: "\(checksum)"
         ),
     ]
