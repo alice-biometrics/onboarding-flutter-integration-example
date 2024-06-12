@@ -19,7 +19,7 @@ let package = Package(
     targets: [
         .target(
             name: "AliceOnboardingBundle",
-            dependencies: ["AliceOnboarding", "Lottie"], // Add Lottie as a dependency for your target
+            dependencies: ["AliceOnboarding],
             path: "Sources",
             exclude: [],
             sources: ["."],
