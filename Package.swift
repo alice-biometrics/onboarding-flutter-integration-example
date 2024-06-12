@@ -3,8 +3,8 @@
 
 import PackageDescription
 
-let version = "2.3.12"
-let checksum = "ec99bd96d9ab6ff9bc60736d4e76d8135f9f8b4dd58baddaafa0d087fdf3dff1"
+let version = "2.3.13"
+let checksum = "287f8b9ace6e0a35afe88bc2d0cd1a86b19de90f313c280d7b7dae7344b6dc29"
 
 let package = Package(
     name: "AliceOnboarding",
@@ -28,7 +28,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AliceOnboarding",
-            url: "https://storage.googleapis.com/alicebiometrics.com/releases/ios/AliceOnboarding-2.3.12.zip",
+            url: "https://storage.googleapis.com/alicebiometrics.com/releases/ios/AliceOnboarding-2.3.13.zip",
             checksum: "\(checksum)"
         ),
     ]
